@@ -1,0 +1,45 @@
+@keyframes shadeIn {
+    from { 
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to { 
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes shadeLeft {
+    from { 
+        transform: translateX(-30px) scaleX(1);
+        opacity: 0;
+    }
+    to { 
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes shadeRight {
+    from { 
+        transform: translateX(30px) scaleX(1);
+        opacity: 0;
+    }
+    to { 
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.prodName > h1 {
+    animation: shadeIn 1.1s;
+    animation-fill-mode: both;
+}
+.mid_session > span:nth-child(1) {
+    animation: shadeLeft 0.5s;
+    animation-fill-mode: both;
+    animation-delay: 0.7s;
+}
+.mid_session > span:nth-child(2) {
+    animation: shadeRight 0.5s;
+    animation-fill-mode: both;
+    animation-delay: 0.7s;
+}
