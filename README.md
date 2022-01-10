@@ -1,9 +1,8 @@
 # Tesla-webpage with Spring boot
 
 스프링 부트를 이용하여 테슬라 웹 페이지의 모든 서비스를 구현하는 프로젝트입니다.
-JPA와 DATA JPA의 활용을 중점으로 진행되었습니다.
 
-현재는 JPA로 구현된 간단한 CRUD 컨트롤러와 요청/응답 받는 프론트 페이지가 Thymeleaf 와 순수 CSS,JS로 구현되어있습니다. 지속적으로 업데이트 될 예정이며 프론트도 프레임워크를 이용하여 전환될 예정에 있습니다.
+현재는 간단한 CRUD 컨트롤러와 요청/응답 받는 프론트 페이지가 Thymeleaf 와 순수 CSS,JS로 구현되어있습니다. 지속적으로 업데이트 될 예정이며 프론트도 프레임워크를 이용하여 전환될 예정에 있습니다.
 
 ![](https://user-images.githubusercontent.com/69189272/118437825-40dc1880-b71e-11eb-9351-3dd22e099292.png)![](https://user-images.githubusercontent.com/69189272/118437835-446f9f80-b71e-11eb-8f94-19678b51c678.png)
 
